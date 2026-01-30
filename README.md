@@ -1,1 +1,1 @@
-# Github Labs -  Lab 01
+Lab Assigment 1: Github Labs
