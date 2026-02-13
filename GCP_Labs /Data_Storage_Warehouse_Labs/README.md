@@ -1,4 +1,4 @@
-# Assignment 2: GCP Data Storage Warehouse Lab
+# Lab 2: GCP Data Storage Warehouse Lab
 
 ##  Setup
 

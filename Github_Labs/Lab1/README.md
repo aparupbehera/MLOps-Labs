@@ -1,4 +1,4 @@
-# Text Analyzer - ML Application with CI/CD
+# Lab 1: Text Analyzer - ML Application with CI/CD
 
 A simple machine learning text analysis application with automated testing using **pytest** and **unittest** through **GitHub Actions**.
 
