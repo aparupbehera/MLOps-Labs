@@ -90,3 +90,20 @@ GROUP BY customer_id, customer_name
 ORDER BY lifetime_value DESC
 LIMIT 20;
 ```
+
+### 5. Create Partitions
+```sql
+CREATE OR REPLACE TABLE `project_id.amazon_sales_db.sales_partitioned`
+PARTITION BY `Order Date`
+AS
+SELECT * FROM `project_id.amazon_sales_db.sales`;
+
+-- Testing query on partitioned table
+SELECT 
+    `Item Type`,
+    ROUND(SUM(`Total Revenue`), 2) AS revenue
+FROM `project_id.amazon_sales_db.sales_partitioned`
+WHERE `Order Date` BETWEEN '2017-01-01' AND '2017-12-31'
+GROUP BY `Item Type`
+ORDER BY revenue DESC;
+```
