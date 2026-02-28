@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+tensorboard>=2.13
+numpy>=1.21
+jupyter>=1.0
+ipykernel>=6.0
