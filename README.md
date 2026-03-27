@@ -1,3 +1,6 @@
+### Lab 5: Model_Development/Distributed_Training
+Distributed Training with Ray + PyTorch
+
 ### Lab 4: Experiment_Tracking_Labs/MLflow_Labs 
 Diabetes Prediction with PyTorch + MLflow
 
