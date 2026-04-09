@@ -1,3 +1,6 @@
+### Lab 6: ELK_Labs
+Record Matching using Random Forest — Monitored with ELK Stack
+
 ### Lab 5: Model_Development/Distributed_Training
 Distributed Training with Ray + PyTorch
 

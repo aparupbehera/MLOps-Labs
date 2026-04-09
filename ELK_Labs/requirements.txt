@@ -1,0 +1,5 @@
+rapidfuzz
+scikit-learn
+numpy
+jellyfish
+recordlinkage
